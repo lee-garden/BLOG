@@ -1,0 +1,10 @@
+resilience4j:
+    circuitbreaker:
+        configs:
+            default:
+                slidingWindowSize: 10
+                failureRateThreshold: 80
+
+        instances:
+            garden:
+                baseConfig: default
