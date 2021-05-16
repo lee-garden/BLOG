@@ -3,6 +3,10 @@ package lee.garden.simpleapiserver;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
+/**
+ * 8081에 떠있는 API 서버
+ * */
 @RestController
 public class DataController {
 
